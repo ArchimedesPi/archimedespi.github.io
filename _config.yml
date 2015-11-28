@@ -1,0 +1,11 @@
+title: Liam Marshall
+email: liam@cpan.org
+description: Liam Marshall --student --programmer --sysadmin
+baseurl: ""
+url: ""
+twitter_username: 4rch1m3d35P1
+github_username:  archimedespi
+keybase_username: archimedespi
+
+# Build settings
+markdown: kramdown

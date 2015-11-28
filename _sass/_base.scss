@@ -1,0 +1,38 @@
+body {
+  background-color: #222222;
+}
+
+* {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+
+heading {
+  text-align: center;
+  h1 {
+    color: #dcdccc;
+    font-size: 6em;
+  }
+  h3 {
+    font-style: italic;
+    color: #f0dfaf;
+    font-size: 3em;
+  }
+}
+
+section.contactmethods {
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    display: inline;
+    margin: 1em;
+    i.fa {
+      font-size: 5em;
+    }
+    a {
+      color: #41706f;
+      &:visited {color: darken(#41706f, 10%);}
+    }
+  }
+}
