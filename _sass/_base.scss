@@ -19,6 +19,7 @@ heading {
     @include small {
       font-size: 2rem;
     }
+    font-family: "Yanone Kaffeesatz", "Helvetica", sans-serif;
   }
   h3 {
     font-style: italic;
@@ -32,6 +33,7 @@ heading {
     @include small {
       font-size: 1.5rem;
     }
+    font-family: "Inconsolata", monospace;
   }
 }
 
