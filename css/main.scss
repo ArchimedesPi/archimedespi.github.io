@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+@charset 'utf-8';
 
 $large-breakpoint: 64em;
 $medium-breakpoint: 42em;
@@ -25,6 +25,6 @@ $medium-breakpoint: 42em;
 }
 
 @import 'fonts';
-@import "base";
-@import "layout";
-@import "syntax-highlighting";
+@import 'base';
+@import 'layout';
+@import 'syntax-highlighting';
