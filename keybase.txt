@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/archimedespi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://archimedespi.github.io
+  * I am archimedespi (https://keybase.io/archimedespi) on keybase.
+  * I have a public key with fingerprint F1A1 745C 486D 2F41 794C  A621 FE4E 860E 818B C54C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b175dcacfa219e4a3992aef173f48d948280edbd5160795ea67dbdaa4d5764af0a",
+            "fingerprint": "f1a1745c486d2f41794ca621fe4e860e818bc54c",
+            "host": "keybase.io",
+            "key_id": "fe4e860e818bc54c",
+            "kid": "0101b175dcacfa219e4a3992aef173f48d948280edbd5160795ea67dbdaa4d5764af0a",
+            "uid": "d133455d51b920330d34233174183919",
+            "username": "archimedespi"
+        },
+        "revoke": {
+            "sig_ids": [
+                "2f1cfba683f4c24c73ad74354b2126e1b58a7b00a1172c18c82856b35a7a7da60f"
+            ]
+        },
+        "service": {
+            "hostname": "archimedespi.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1448841336,
+    "expire_in": 157680000,
+    "prev": "2dd11f8efdd9fa21042b62c79a8c9083b77b33d489ccf0f18db94d4265084dc3",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMOIAnicrZJ7UFVFHMcvDwkBCW3iVTZ2DHECmbPn7HndzBQdLEJzBGEMEfacsweO
+yL2Xcy+vCAs1EYgppXgUIpMV9phJIlRgHIoACwISSgPFmUBDsoYK84FA7aX6zz/b
+f3Z+O9/fZ7/73V/HIjeTl8vc5gO+haWdMS497a5ZpvjE13PzKdmq5lHmfCodz294
+t4rtjuR0XaXMFA1oIAOBUxWkaIgBEoaIlSQGYQ0IrAZFVYIiI9JYlVUO8LQgcRjx
+AqkQgion8BBpNKLCKU23pGLDZugWB8FqAAEBcgoUeZXRIBAkqCCeARqGWORpLAJR
+VjiokMY0q93ZQczJyI4jdCs5I0XyvL176P9n31nzOBWwLOQ4IpUlhmZZWmUhw7Lk
+DUBkJSA5hXZsWFAGJmpkKGl6BiYx2nSqIJwycLY1HTuzteupxLidMidSjAYUTUa8
+SNwoDFQEFqkCZDkoM4DhMZA5EQkyTSMABEYBokLscrzMckhAgop4WqOSCJvcmq0r
+83BnUvdwEJGqO9Ky5H+SsxlWh1Wx7iaaNIfDZjc7/TnybM6mHCwn/4tLlnWLSn6M
+dGRjw65bLZQZEKXi0J18AKEoQpIJH07hXJtu4GTdqSC5iTRZzntwNkEyqgqAJmJN
+VSXnN9CQkXlGESQkKhItsrIgyCyrQlFSFI3WgKjKElQhw3O0CFWFpZwPzLRYCVsk
+PlEqYZIMLciRZWCqoP2LHe4mFy+TxwJX5yibvBb6/Tfg333qZyq6fvLDysduCIXb
+qIZgbrB32cVI95F6R3zppZGmzxsnMqdtbWfSZw8mHFg8lBPgMdJ6+aGKvsGwuNaq
+wu4fqls27Z+41dEfmnd1dntbBows2je7OcPt/ta9RWGeE7G7ToR7f5tiHI5+Kybq
+aPxhU9DK15ZM7IzYxDW+65cTUKb2h3utf6KhOzexMb1uw8T49Ph0UQhcNTX9iXvo
+rfLbJV9PXvNZ1+N5YWfc9b923FnxYC13vtQjqHs8MPxc7J2oLbe1B4zKjuxXLSfP
+GpJtZHXK/o1ng8dm2ivKyireT//416LGrlfiGtBif7cvT61cUhvTnFpiHct64/fR
+ktmqP9xRy03q+H0h/Ukvd0YbIUf2FibYcUPgC1JC17Ynyz1+WhRcmj/Hj/b7jD6e
+cKbrx8FK19ry7Vci45pPr/9qQ8qJgZStQZGr961Iunv57myAyf5UcUvemwMLtvTN
+RIDQYd9JTfuAnnknuvrpujXN79H1Hz18be1Lq+yPugUO45qxje3FL175pblta1ll
+9dCuoN49z1Zy7PRkMZU1NWn6/kjqsuVRnt4FN2ue9/apy/mmNrPvxuSpwTC/nqbz
+U/lX8dLTa47t+2zukZ4/Dx0qPx6tLjUvb8pYt7DNX8qM6ZfrhvewP1/o7abb/JuP
++Q7G/jY+PSSdyznaWRfzXGgVq7nF+l4svpS/tmags/6Zt22+oPxv+IPnsw==
+=pv9f
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/archimedespi
+
+==================================================================
