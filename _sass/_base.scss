@@ -1,9 +1,15 @@
 body {
   background-color: #222222;
+  color: #cccccc;
 }
 
 * {
   font-family: "Open Sans", "Helvetica", sans-serif;
+}
+
+a {
+  color: #41706f;
+  &:visited {color: darken(#41706f, 10%);}
 }
 
 heading {
@@ -56,9 +62,13 @@ section.contactmethods {
         font-size: 3.5rem;
       }
     }
-    a {
-      color: #41706f;
-      &:visited {color: darken(#41706f, 10%);}
-    }
+  }
+}
+
+section.crypto {
+  font-size: 2em;
+  text-align: center;
+  i {
+    color: #7f9f7f;
   }
 }
