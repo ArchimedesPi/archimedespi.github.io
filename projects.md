@@ -14,6 +14,9 @@ Here's an example of me writing a basic hello world program in Zed:
 
 ![gif of terminal, writing hello world in zed](http://i.imgur.com/KGKv3au.gif)
 
+## [Lossy](https://github.com/archimedespi/lossy)
+Lossy is my perpetually-changing OS in Rust. Right now it can sort of allocate memory, I'm currently working on a keyboard driver.
+
 # Hardware projects
 
 ## Rapid prototyping a laboratory-equipment repair
