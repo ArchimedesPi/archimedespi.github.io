@@ -43,6 +43,16 @@ heading {
   }
 }
 
+section.about-me {
+  font-size: 1.25rem;
+  max-width: 64rem;
+  @include large {
+    padding: 2rem 6rem;
+  }
+  margin: 0 auto;
+  border: 1px solid $gray;
+}
+
 section.contactmethods {
   ul {
     display: flex;
@@ -62,13 +72,5 @@ section.contactmethods {
         font-size: 3.5rem;
       }
     }
-  }
-}
-
-section.crypto {
-  font-size: 2em;
-  text-align: center;
-  i {
-    color: #7f9f7f;
   }
 }
