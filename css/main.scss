@@ -6,9 +6,12 @@
 
 @import 'colors/colors';
 
-
 $large-breakpoint: 64em;
 $medium-breakpoint: 42em;
+
+$base-font-size:   1.25rem;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -30,5 +33,4 @@ $medium-breakpoint: 42em;
 
 @import 'fonts';
 @import 'base';
-@import 'layout';
 @import 'syntax-highlighting';

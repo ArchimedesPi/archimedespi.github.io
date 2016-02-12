@@ -12,6 +12,27 @@ a {
   &:visited {color: darken(#41706f, 10%);}
 }
 
+article {
+  @include large {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: $base-font-size;
+  }
+  @include medium {
+    padding: 2rem 4rem;
+    font-size: $base-font-size;
+  }
+  @include small {
+    padding: 2rem 1rem;
+    font-size: $small-font-size;
+  }
+}
+
+img {
+  max-width: 64rem;
+}
+
 heading {
   text-align: center;
   h1 {
@@ -43,15 +64,6 @@ heading {
   }
 }
 
-section.about-me {
-  font-size: 1.25rem;
-  max-width: 64rem;
-  @include large {
-    padding: 2rem 6rem;
-  }
-  margin: 0 auto;
-  border: 1px solid $gray;
-}
 
 section.contactmethods {
   ul {
