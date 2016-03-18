@@ -3,7 +3,7 @@ layout: page
 permalink: projects
 ---
 
-I've done many, many projects in my life. This is a small subset of some of the interesting ones.
+This is a small subset of some of the interesting projects I've done.
 
 # Software projects
 
@@ -13,6 +13,10 @@ Zed is written in C, *flex*, and *bison*. It generates C as IR, which can then b
 Here's an example of me writing a basic hello world program in Zed:
 
 ![gif of terminal, writing hello world in zed](http://i.imgur.com/KGKv3au.gif)
+
+## [NSA Away](https://hackaday.io/project/1569-nsa-away)
+I collaborated with a number of other hackerspace members at Sector67 to design and implement a semi-hardware-based one-time-pad encryption tool. A hardware CSRNG device we designed was used to generate OTP keys, which were then used by a custom Android application for encrypting a plaintext, which were then sent over email from a computer and entered using custom keyboard-emulating USB OTG hardware to insulate the phone from the computer. Received cyphertext was entered into the phone using OCR, to provide an airgap between the receiving machine and the decryption and keys.
+A bog-standard XOR OTP stream cipher was used to perform encryption.
 
 # Hardware projects
 
