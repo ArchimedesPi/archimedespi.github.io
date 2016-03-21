@@ -1,6 +1,7 @@
 ---
 layout: post
 title: writing slack bots for fun and profit
+date: 2016-03-21 18:20:00 -0500
 ---
 
 #### the problems
