@@ -32,7 +32,7 @@ def ping(res):
     res.send("PONG")
 ```
 
-with that particular yak shaved, i wrote a plugin to pull announcements in the format "Announcement for MM/DD/YY: \<announcement\>" from an #announcements channel in slack. [here's the plugin code](https://github.com/ratchetrobotics/espresso/blob/master/plugins/notebook.py), if anyone's interested.
+with that particular yak shaved, i wrote a plugin to pull announcements in the format "Announcement for MM/DD/YY: \<announcement\>" from an #announcements channel in slack, and append them in a specific format to the end of the notebook using python-docx. [here's the plugin code](https://github.com/ratchetrobotics/espresso/blob/master/plugins/notebook.py), if anyone's interested.
 
 #### getting people to actually use it
 yeah. bots are always a fun thing regarding adoption.
