@@ -9,3 +9,6 @@ keybase_username: archimedespi
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
