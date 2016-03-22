@@ -30,11 +30,13 @@ def ping(res):
     res.send("PONG")
 ```
 
-with that particular yak shaved, i wrote a plugin to pull announcements in the format "Announcement for MM/DD/YY: \<announcement\>" from an #announcements channel in Slack.
+with that particular yak shaved, i wrote a plugin to pull announcements in the format "Announcement for MM/DD/YY: \<announcement\>" from an #announcements channel in slack. [here's the plugin code](https://github.com/ratchetrobotics/espresso/blob/master/plugins/notebook.py), if anyone's interested.
 
 #### getting people to actually use it
 yeah. bots are always a fun thing regarding adoption.
-our team is pretty darn cool so they were mostly like "hey liam, awesome, thanks, we have to do less work now!". except people didn't do it. so we did things like "no you don't get to talk about that at the start of the meeting unless you announced it!" which helped. except that people kept not using it. in its original incarnation, it had a more complex format to the announcement, and was case sensitive. i made things easier on that front, which probably helped the most!
+our team is pretty darn cool so they were mostly like "hey liam, awesome, thanks, we have to do less work now!". except people didn't use the bot. so we did things like "no you don't get to talk about that at the start of the meeting unless you announced it!" which helped, sort of.
+
+i fixed a few more problems which helped with adoption. in its original incarnation, the bot had a more complex format for the announcement, and was case sensitive. i made things easier on that front, which probably helped the most!
 
 another problem was mainly my fault: sometimes people would announce and it took awhile for the announcements to end up in the notebook since i forgot to ssh into my server and fire off the notebook editing task. i fixed this by making a private interface keyed to my slack account where i could just private-message the bot and tell it to edit the notebook. that was so much easier! chatops is awesome.
 
