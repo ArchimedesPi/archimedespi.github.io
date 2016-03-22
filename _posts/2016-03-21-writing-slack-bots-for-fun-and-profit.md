@@ -7,10 +7,11 @@ date: 2016-03-21 18:20:00 -0500
 #### the problems
 last year my robotics team had an annoying thing we had to do! so we automated it.
 in the particular competition we were in, we had to submit an engineering notebook, and our internal specs for doing so said that:
-- each meeting should get a section in the notebook,
-  - with where we held the meeting,
-  - and at what date.
-- inside each meeting section there should be an announcements section holding all the announcements people had for that meeting, to make it easier to remember things we had to talk about.
+
+* each meeting should get a section in the notebook,
+  * with where we held the meeting,
+  * and at what date.
+* inside each meeting section there should be an announcements section holding all the announcements people had for that meeting, to make it easier to remember things we had to talk about.
 
 this was *really* annoying to maintain. since we use slack, i thought it might be fun to make a slackbot to do this, and that's how our meeting-bot [espresso](https://github.com/ratchetrobotics/espresso) was born.
 
