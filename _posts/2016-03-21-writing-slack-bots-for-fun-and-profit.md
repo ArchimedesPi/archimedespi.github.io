@@ -34,13 +34,22 @@ def ping(res):
 
 with that particular yak shaved, i wrote a plugin to pull announcements in the format "Announcement for MM/DD/YY: \<announcement\>" from an #announcements channel in slack, and append them in a specific format to the end of the notebook using python-docx. [here's the plugin code](https://github.com/ratchetrobotics/espresso/blob/master/plugins/notebook.py), if anyone's interested.
 
+![output in the notebook](http://i.imgur.com/ecW9pcl.jpg)
+
 #### getting people to actually use it
 yeah. bots are always a fun thing regarding adoption.
 our team is pretty darn cool so they were mostly like "hey liam, awesome, thanks, we have to do less work now!". except people didn't use the bot. so we did things like "no you don't get to talk about that at the start of the meeting unless you announced it!" which helped, sort of.
 
 i fixed a few more problems which helped with adoption. in its original incarnation, the bot had a more complex format for the announcement, and was case sensitive. i made things easier on that front, which probably helped the most!
 
-another problem was mainly my fault: sometimes people would announce and it took awhile for the announcements to end up in the notebook since i forgot to ssh into my server and fire off the notebook editing task. i fixed this by making a private interface keyed to my slack account where i could just private-message the bot and tell it to edit the notebook. that was so much easier! chatops is awesome.
+another problem was mainly my fault: sometimes people would announce and it took awhile for the announcements to end up in the notebook since i forgot to ssh into my server and fire off the notebook editing task. i fixed this by making a private interface keyed to my slack account where i could just private-message the bot and tell it to edit the notebook. that was so much easier!
 
-i've extended it a couple times with a few more features and some funny easter eggs, which helps engagement.
+chatops is awesome.
+
+![espresso chatops](http://i.imgur.com/9jDN0xd.jpg)
+
+i've extended it a couple times with a few more features and some funny easter eggs, which helps engagement a lot.
+
+![make me coffee](http://i.imgur.com/nmXhyoW.jpg)
+
 the bot has definitely been beneficial to our team: it accomplished exactly what we wanted and was easy to use. yay for slack bots!
