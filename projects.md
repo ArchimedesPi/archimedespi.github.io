@@ -31,6 +31,6 @@ A company I work with had a critical part of a chromatography instrument fail by
 I quickly CADed and 3d-printed a replacement bracket in Solidworks, which works beautifully:
 
 <iframe id="ytplayer" type="text/html" width="640" height="390"
-  src="http://www.youtube.com/embed/pvNaDUpizJo"
+  src="https://www.youtube.com/embed/pvNaDUpizJo"
   frameborder="0"/>
 
