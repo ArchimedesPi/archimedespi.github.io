@@ -24,7 +24,7 @@ A bog-standard XOR OTP stream cipher was used to perform encryption.
 # Hardware projects
 
 ## Rapid prototyping a laboratory-equipment repair
-A chromatography instrument company I work with had a critical part fail by snapping in half:
+A company I work with had a critical part of a chromatography instrument fail by snapping in half:
 
 ![broken sampler bracket](https://i.imgur.com/7B7ldH6.jpg)
 
