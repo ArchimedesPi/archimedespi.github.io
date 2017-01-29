@@ -2,42 +2,59 @@
 layout: default
 ---
 
-<article class="landing">
-  <heading>
+
+<section id="home">
+  <div id="particles-bg"></div>
+  <div class="jumbo">
     <h1>Liam Marshall</h1>
-    <h3>Student, Programmer, Sysadmin</h2>
-  </heading>
-  <section class="contactmethods">
-    <ul>
-      <li><a href="mailto:liam@cpan.org"><i class="fa fa-envelope"></i></a></li>
-      <li><a href="https://github.com/{{site.github_username}}"><i class="fa fa-github"></i></a></li>
-      <li><a href="https://twitter.com/{{site.twitter_username}}"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="https://keybase.io/{{site.keybase_username}}"><i class="fa fa-key"></i></a></li>
+    <ul class="links">
+      <li><a href="https://github.com/archimedespi">github</a></li>
+      <li><a href="mailto:limarshall@wisc.edu">email @wisc.edu</a>, <a href="mailto:liam@hashbang.sh">email @hashbang.sh</a></li>
+      <li><a href="{{site.baseurl}}/blog">blog</a></li>
     </ul>
-  </section>
-  <section class="about-me">
-    <p>
-    Hey there!
-    I'm liam marshall.
-    I'm a student right now :)
-    I've done <a href="/projects">a bunch of cool things</a> with electronics, programming, and engineering.
-    </p>
-    <p>
-    My skillset includes:
-    <ul>
-      <li>Python</li>
-      <li>C and C++ (including embedded dev)</li>
-      <li>Javascript (es5,6,7)</li>
-      <li>frontend webdev</li>
-      <li>backend webdev with
-        <ul>
-          <li>Python and Flask</li>
-          <li>Ruby on Rails</li>
-        </ul>
-      </li>
-    </ul> 
-    </p>
-    <p>
-    I'm currently learning Rust and Erlang, <a href="/blog">which I blog about</a>, among other things.
-  </section>
-</article>
+  </div>
+  <a href="#projects-and-work">{% include downarrow.html %}</a>
+</section>
+
+<section id="projects-and-work">
+  <div class="row row-gutters">
+    <div class="col">
+      <h1>Large-Scale Projects</h1>
+      <ul>
+        <li>Volunteered at Lets Encrypt
+          <ul>
+            <li>Ubuntu packaging, backports (Augeas, test-required packages)</li>
+            <li>Overhaul of testing infra using TravisCI Docker subsystem (reduced test times from ~12min to ~3min)</li>
+            <li>Worked on Apache autoconfigurator</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Projects</h1>
+      <ul>
+        <li><a href="https://github.com/archimedespi/zed">Zed</a>, my first toy language <i>(<b>2015</b>, written in Bison, Flex, C)</i></li>
+        <li><a href="https://github.com/archimedespi/wye">Wye</a>, my more serious toy language <i>(<b>2017/ongoing</b>, written in OCaml)</i></li>
+        <li><a href="https://github.com/ArchimedesPi/xe">Xe</a>, a WIP game engine eventually intended for autonomous-actor research <i>(<b>2016/ongoing</b>, written in C++/Lua with OpenGL v3)</i></li>
+        <li><a href="https://github.com/ArchimedesPi/shellshocker">Shellshocker</a>, a small CLI program and webapp for testing common CGI-Bash endpoints for the Shellshock vulnerability. This was deployed on Heroku for a few weeks and got several tens of thousands of visits. <i>(<b>2015</b>, Python with Flask)</i></li>
+        <li><a href="https://github.com/ArchimedesPi/synths">Several</a> AVR-based embedded wavetable synths accepting MIDI <i>(<b>2016</b>, C/C++)</i></li>
+        <li><a href="https://github.com/ArchimedesPi/esp8266-luaupload"><code>esp8266-luaupload</code></a>, a tiny utility to upload code to an ESP8266 running the ZeroDay Lua interpreter. <i>(<b>2015</b>, Python)</i></li>
+        <li><a href="https://github.com/ratchetrobotics/espresso">Espresso</a>, a chatbot for, among several things, generating FTC-formatted engineering notebook headers <i>(<b>2015</b>, Python)</i></li>
+        <li><a href="https://github.com/hearhear/Stirrup">Stirrup</a>, the firmware for a hearing assistive-tech device I built for my grandfather <i>(<b>2015</b>, C++)</i></li>
+        <li><a href="https://github.com/Sector67/partdb">partdb</a>, a web frontend for the part number -> draw number mapping database provided with a set of part cabinets donated to our hackerspace <i>(<b>2016</b>, Python)</i></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Work</h1>
+    </div>
+  </div>
+  <!-- {% include downarrow.html %} -->
+</section>
+
+<section id="skills">
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha256-+u54FaX9J+k40eAcg5K2YzICSQjrEYBI9gju5nE3HfY=" crossorigin="anonymous"></script>
+<script>
+  particlesJS.load('particles-bg', 'assets/particles.json', function () {console.log("Particles loaded");});
+</script>

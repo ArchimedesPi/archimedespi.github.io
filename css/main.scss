@@ -13,6 +13,10 @@ $base-font-size:   1.25rem;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 
+$bg-color: #1b1b1f;
+$txt-color: #ffffff;
+$brand-color: #9400ff;
+
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
@@ -32,5 +36,12 @@ $small-font-size:  $base-font-size * 0.875;
 }
 
 @import 'fonts';
+@import 'ungrid';
 @import 'base';
+@import 'layout';
+
 @import 'code';
+@import 'colors/variables';
+
+@import 'components/downarrow';
+@import 'components/particlebg';
